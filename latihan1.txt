@@ -1,6 +1,6 @@
 mahasiswa belajar ngoding dengan github
 >>HTML
->>CSS
+>>JQUERY
 >>PHP
 >>JSF
 >>mongoDB
