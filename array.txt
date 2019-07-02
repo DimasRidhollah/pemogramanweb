@@ -16,7 +16,6 @@ print "<tr><td>Hobi</td><td>:</td><td>" .$data[0][0][0]['Hobi']."</td></tr>";
 print "<tr><td>Pekerjaan</td><td>:</td><td>" .$data[0][0][0]['Pekerjaan']."</td></tr>";
 print "<tr><td>Alamat</td><td>:</td><td>" .$data[0][0][0]['Alamat']."</td></tr>";
 print "</table>"
-
 ?>
 </body>
 </html>
