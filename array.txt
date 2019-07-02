@@ -1,0 +1,22 @@
+<?php
+
+//test array 4 dimensi
+$data = 
+array( //array 1
+array( //array 2
+array( //array 3
+array("Nama"=>"Dimas","Hobi"=>"Menyanyi", "Pekerjaan"=>"Mahasiswa", "Alamat"=>"Tegal Sari Ujung")//array 4
+)
+)
+);
+
+print "<table align=center>";
+print "<tr><td>Nama</td><td>:</td><td>" .$data[0][0][0]['Nama']."</td></tr>";
+print "<tr><td>Hobi</td><td>:</td><td>" .$data[0][0][0]['Hobi']."</td></tr>";
+print "<tr><td>Pekerjaan</td><td>:</td><td>" .$data[0][0][0]['Pekerjaan']."</td></tr>";
+print "<tr><td>Alamat</td><td>:</td><td>" .$data[0][0][0]['Alamat']."</td></tr>";
+print "</table>"
+
+?>
+</body>
+</html>
